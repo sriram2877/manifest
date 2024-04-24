@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://github.com/ruhulaminparvez" name="origin"/>
+	<remote fetch="https://github.com/sriram2877" name="origin"/>
+	<remote fetch="https://github.com/ruhulaminparvez" name="other_origin"/> <!-- New remote for the other Git user -->
 	<default remote="origin" sync-j="4" revision="main"/>
-	<project name="code-arduino.git" path="arduino"/>
+	<project name="LinuxApp" path="app"/>
+	<project name="Driver" path="driver"/>
+	<project name="code-arduino" path="other_project" remote="other_origin"/> <!-- New project from the other Git user -->
 </manifest> 
