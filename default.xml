@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote fetch="https://github.com/sriram2877" name="origin"/>
-	<default remote="origin" sync-j="4" revision="master"/>
+	<default remote="origin" sync-j="4" revision="main"/>
 	<project name="LinuxApp" path="app"/>
-	<project name="Linuxdriver" path="driver"/>
+	<project name="Driver" path="driver"/>
 </manifest> 
