@@ -4,4 +4,7 @@
 	<default remote="origin" sync-j="4" revision="main"/>
 	<project name="LinuxApp" path="app"/>
 	<project name="Driver" path="driver"/>
+	<remote fetch="https://github.com/akash1477" name="origin"/>
+	<default remote="origin" sync-j="4" revision="main"/>
+	<project name="Rainbow-Wave-Arduino-" path="arduino"/>
 </manifest> 
